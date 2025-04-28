@@ -9,6 +9,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <33 32>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <25 26>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -66,13 +80,9 @@
             >;
         };
 
-        extra1 {
-            status = "reserved";
-        };
+        extra1 { status = "reserved"; };
 
-        extra2 {
-            status = "reserved";
-        };
+        extra2 { status = "reserved"; };
     };
 
     conditional_layers {
