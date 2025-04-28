@@ -21,6 +21,11 @@
             bindings = <&kp ESC>;
             key-positions = <25 26>;
         };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <17 18>;
+        };
     };
 
     behaviors {
