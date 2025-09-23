@@ -81,6 +81,8 @@
 &kp LSHFT  &kp Z  &kp X         &kp C          &kp V            &kp B                   &kp N            &kp M             &kp COMMA           &kp DOT       &kp FSLH       &kp ESC
                                 &kp LGUI       &mo 1            &mt LEFT_SHIFT SPACE    &mt LCTRL ENTER  &mo 2             &kp RALT
             >;
+
+            label = "Base";
         };
 
         lower_layer {
@@ -96,6 +98,8 @@
 &kp PRINTSCREEN  &trans    &trans     &trans     &trans    &kp INS    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &to 4
                                       &kp LGUI   &trans    &trans     &trans    &trans         &kp RALT
             >;
+
+            label = "Lower";
         };
 
         raise_layer {
@@ -111,6 +115,8 @@
 &trans  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                           &kp LGUI  &trans    &trans       &trans     &trans     &kp RALT
             >;
+
+            label = "Raise";
         };
 
         media_fn {
@@ -120,6 +126,8 @@
 &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &bt BT_PRV        &bt BT_NXT         &bt BT_CLR       &out OUT_TOG          &trans                &trans
                         &trans  &trans  &trans     &trans            &trans             &trans
             >;
+
+            label = "Media";
         };
 
         mouse {
@@ -129,6 +137,8 @@
 &trans  &trans  &trans  &trans  &trans     &trans       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &tog 4
                         &trans  &mkp MB4   &mkp LCLK    &mkp RCLK       &mkp MB5        &trans
             >;
+
+            label = "Mouse";
         };
     };
 
