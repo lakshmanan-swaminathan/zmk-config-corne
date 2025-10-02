@@ -33,6 +33,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <20 21>;
         };
+
+        at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <16 19>;
+        };
     };
 
     behaviors {
